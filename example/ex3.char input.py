@@ -1,0 +1,6 @@
+name=raw_input("give me ur name:")
+print("your name is "+name)
+age=int(input("Give me ur age:"))
+print("your age is "+ str(age))
+out=str((100-int(age))+2017)
+print(name+" will be 100 years old in "+str(out))
